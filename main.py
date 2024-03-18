@@ -1,3 +1,4 @@
+# This code allows any comment starting with '/' in GitHub issues to create tickets in Jira. To make app only create tickets with specific comment "/CreateJira" follow the code in create_jira.py
 from flask import Flask
 import requests
 from requests.auth import HTTPBasicAuth
